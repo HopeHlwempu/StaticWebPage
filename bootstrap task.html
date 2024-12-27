@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starr's Online Closet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            background-color: #ffe4e1; /* Light Pink */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+/* Header Section */
+header {
+    background-color: #f1e0ff; /* Lavender */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    color: black;
+    font-size: 3rem; /* Increased font size */
+    font-weight: bold; /* Bold text */
+}
+
+header p {
+    color: black;
+    font-size: 1.5rem; /* Slightly bigger for the description */
+    font-weight: bold; /* Bold text */
+}
+
+header img {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 150px;
+    height: auto;
+}
+
+        /* Product Section */
+        .product img {
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .product h5 {
+            color: #4b0082;
+            font-weight: bold;
+        }
+
+        .product p {
+            color: #555;
+        }
+
+        .product .btn {
+            background-color: #4b0082;
+            color: white;
+            border: none;
+        }
+
+        .product .btn:hover {
+            background-color: #6a0dad;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px 0;
+        }
+
+        footer form input {
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        footer a {
+            color: #ffc0cb;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Fun GIF Section */
+        .fun-gif {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .fun-gif img {
+            width: 200px;
+        }
+
+        .fun-gif p {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Starr's Online Closet</h1>
+        <p>Shop the looks inspired by my Instagram @starr.hopey</p>
+        <img src="midnight.webp" alt="Fashion GIF">
+    </header>
+
+    <!-- Products Section -->
+    <main class="container my-4">
+        <div class="row">
+            <!-- Product Cards -->
+            <!-- 1st Row -->
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Printed Sweatshirt.jpg" class="img-fluid" alt="Printed Sweatshirt">
+                <h5>Printed Sweatshirt</h5>
+                <p>R450.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="chic white blouse.jpg" class="img-fluid" alt="Chic White Blouse">
+                <h5>Chic White Blouse</h5>
+                <p>R350.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Mom Jeans.jpg" class="img-fluid" alt="Mom Jeans">
+                <h5>Washed Out Blue - Mom Jeans</h5>
+                <p>R500.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Black Star Jeans.jpg" class="img-fluid" alt="Black Star Jeans">
+                <h5>Black Star Jeans</h5>
+                <p>R600.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- 2nd Row -->
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Boho Maxi Dress.jpg" class="img-fluid" alt="Boho Maxi Dress">
+                <h5>Boho Maxi Dress</h5>
+                <p>R550.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+           <div class="col-md-3 text-center mb-4 product">
+                <img src="elegent purple dress.jpg" class="img-fluid" alt="Elegant Purple Dress">
+                <h5>Elegant Purple Dress</h5>
+                <p>R450.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Leopard Print Maxi Skirt.jpg" class="img-fluid" alt="Leopard Print Maxi Skirt">
+                <h5>Leopard Print Maxi Skirt</h5>
+                <p>R450.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Bubble Skirt.jpg" class="img-fluid" alt="Bubble Skirt">
+                <h5>Bubble Skirt</h5>
+                <p>R300.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <!-- 3rd Row -->
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Formal Blazer.jpg" class="img-fluid" alt="Formal Blazer">
+                <h5>Formal Blazer</h5>
+                <p>R650.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Varsity Jacket.jpg" class="img-fluid" alt="Varsity Jacket">
+                <h5>Varsity Jacket</h5>
+                <p>R300.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Classic Heels.jpg" class="img-fluid" alt="Classic Heels">
+                <h5>Red Pumps</h5>
+                <p>R750.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+            <div class="col-md-3 text-center mb-4 product">
+                <img src="Red Boots.jpg" class="img-fluid" alt="Red Boots">
+                <h5>Red Boots</h5>
+                <p>R580.00</p>
+                <button class="btn btn-primary">Buy</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Fun GIF Section -->
+    <div class="fun-gif">
+        <p>Fashion is Fun! <strong>Get inspired:</strong></p>
+        <img src="giphy.webp" alt="Fashion Inspiration GIF">
+    </div>
+
+    <!-- Footer Section -->
+<!-- Footer Section -->
+<footer>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-3 text-center">
+                <img src="Starr2.jpg" alt="Profile Picture" class="img-fluid rounded-circle" style="width: 80px; height: 80px;">
+            </div>
+            <div class="col-md-9">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="email" class="form-label text-white">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label text-white">Phone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone">
+                    </div>
+                </form>
+                <p class="mt-3">
+                    <strong>Follow me on Instagram:</strong> 
+                    <a href="https://www.instagram.com/starr.hopey" target="_blank">@starr.hopey</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
