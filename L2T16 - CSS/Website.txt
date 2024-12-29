@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starr's Vibrant Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hi, I'm Starr</h1>
+            <div class="intro">
+                <img src="hopey.jpg" alt="Starr's Picture" class="profile-image">
+                <p>
+                    I'm Starr, a software developer with expertise in building creative and user-friendly web applications.
+                    I am a passionate software engineer with a love for solving complex problems. I have experience in HTML 
+                    and Python and am deeply motivated by opportunities to make a difference through technology. My goal is 
+                    to continuously learn and grow in the ever-evolving tech landscape. ✨
+                </p>
+            </div>
+        </header>
+
+        <section class="skills">
+            <h2>My Superpowers</h2>
+            <ul>
+                <li>🌟 Creative Coding</li>
+                <li>🤓 Python, HTML, CSS</li>
+                <li>🚀 Problem-Solving</li>
+            </ul>
+        </section>
+
+        <footer>
+            <h2>Contact Me</h2>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> <a href="mailto:starrvansittert@gmail.com">starrvansittert@gmail.com</a></li>
+                <li><strong>Phone:</strong> 079 950 3034</li>
+                <li><strong>Social:</strong> <a href="https://www.linkedin.com/in/hope-hlwempu-65a2a1338/">LinkedIn</a> | <a href="https://github.com/HopeHlwempu">GitHub</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
